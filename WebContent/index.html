@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>金新化工</title>
+
+    <link rel='stylesheet' href='css/default.css' media="screen">
+    <link rel='stylesheet' href='css/print.css' media="print">
+    <link rel='stylesheet' href='css/jetpack.css' media="all">
+    <link rel="shortcut icon" type="image/x-icon" href="image/logo.ico">
+
+    <style>
+      body{background-color: #eef5ca;}
+    </style>
+
+  </head>
+
+  <body class="home page page-id-15 page-template-default">
+    <header role="banner" id="masthead">
+      <div class="container">
+        <nav class="navbar">
+          <div class="container-fluid">
+            <div class="navbar-header">
+              <a class="navbar-brand" target="_blank" href="#">访问公司内部OA系统</a>
+            </div>
+            <div class="navbar-right visible-lg visible-md" id="desktop-search">
+              <form role="search" method="get" class="search-form" action="#">
+                  <div class="input-group input-group-sm">
+                    <span class="input-group-btn">
+                      <select class="selectpicker form-control search-form-control" name="post_type">
+                        <option value="">全部</option>
+                        <option value="post" >要闻</option>
+                        <option value="video" >视频</option>
+                        <option value="attachment" >图片</option>
+                      </select>
+                    </span>
+                    <input type="search" class="form-control" placeholder="搜索 &hellip;" value="" name="s" />
+                    <span class="input-group-btn">
+                      <button class="btn btn-default"><span class="glyphicon newsroomicons-search"></span></button>
+                    </span>
+                  </div>
+                </form>
+            </div>
+            <div class="btn-group other-newsrooms navbar-right hidden-xs">
+              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">其他资讯
+                <span class="caret"></span>
+              </button>
+              <ul id="menu-other-newsrooms" class="dropdown-menu">
+                <li id="menu-item-21358" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21358"><a href="#">公司动态</a></li>
+                <li id="menu-item-21078" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21078"><a target="_blank" href="#">基层动态</a></li>
+                <li id="menu-item-21079" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21079"><a target="_blank" href="#">云天化要闻</a></li>
+              </ul>
+            </div>
+            <!--ul class="nav navbar-nav navbar-right navbar-login">
+                <li><a href="http://disneylandnews.com/wp-login.php">Login</a></li>
+              <li><a href="http://disneylandnews.com/register">Register</a></li>
+            </ul-->         
+          </div>
+        </nav>
+
+        <nav class="navbar" role="navigation">
+          <div class="navbar-header">
+            <a href="#">
+              <h1>Disneyland News</h1>
+            </a>
+          </div>
+          <div class="navbar-right" id="main-navbar-right">
+
+            <button type="button" id="search-toggle" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#tablet-search" data-parent="#main-navbar-right">
+              <span class="sr-only">Toggle search</span>
+              <span class="glyphicon newsroomicons-search"></span>
+            </button>
+            <button type="button" id="navbar-toggle" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topnav-menu" data-parent="#main-navbar-right">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar top-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-right" id="tablet-search">
+              <form role="search" method="get" class="search-form" action="#">
+                <div class="input-group input-group-sm">
+                  <span class="input-group-btn">
+                    <select class="selectpicker form-control search-form-control" name="post_type">
+                        <option value="">全部</option>
+                        <option value="post" >要闻</option>
+                        <option value="video" >视频</option>
+                        <option value="attachment" >图片</option>
+                    </select>
+                  </span>
+                  <input type="search" class="form-control" placeholder="搜索 &hellip;" value="" name="s" />
+                    <span class="input-group-btn">
+                      <button class="btn btn-default"><span class="glyphicon newsroomicons-search"></span></button>
+                    </span>
+                </div>
+
+              </form>
+            </div>
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li class="current-menu-item"><a href="index.html">首页</a></li>
+                <li class=""><a href="front/comp_news.html">公司动态</a></li>
+                <li class=""><a href="front/base_news.html">基层动态</a></li>
+                <li class=""><a href="front/important_news.html">云天化要闻</a></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">党群工作 <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="front/dang.html">公司党建</a></li>
+                    <li><a href="#">学习长廊</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">工会时讯</a></li>
+                    <li><a href="#">社团风采</a></li>
+                    <li><a href="#">团讯聚焦</a></li>
+                  </ul>
+                </li>
+                <li class=""><a href="front/focus.html">关注观点</a></li>
+                <li class=""><a href="#">安全环保消防</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">企业文化 <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">企业文化</a></li>
+                    <li><a href="#">廉洁文化</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">员工文苑</a></li>
+                    <li><a href="#">在线报刊</a></li>
+                    <li><a href="#">荣誉室</a></li>
+                  </ul>
+                </li>
+                <li class=""><a href="#">公告信息</a></li>
+                </ul>
+              </div>
+
+          </div>
+        </nav>
+      </div>
+      <img width="300" height="60" src="image/logo.png" class="visible-print" alt="disneylandnews_logo1" />
+    </header>
+    <div id="theme-banner">
+      <div class="visible-xs"></div>
+      <div class="visible-sm"></div>
+    </div>
+
+  <section class="content">
+  <div class="row carousel-row">
+  <div class="feature-slideshow">
+    <div class="flexslider flexslider-main">
+      <ul class="slides">
+        <li class="slide">
+          <a href="#">
+            <img width="1180" height="500" src="image/slide1.jpg" class="attachment-1180x500 wp-post-image" alt="Mickey and Minnie" />
+            <div class="caption">
+              <h3>习近平在乌法会见俄罗斯总统普京</h3>
+              <p></p>
+            </div>
+          </a>
+        </li>
+        <li class="slide">
+          <a href="#">
+            <img width="1180" height="500" src="image/slide2.jpg" class="attachment-1180x500 wp-post-image" alt="SPARKLING SISTERS" />                
+            <div class="caption">
+              <h3>李克强狠抓督查 逮住稳增长“牛鼻子”</h3>
+              <p></p>
+            </div>
+          </a>
+        </li>
+        <li class="slide">
+          <a href="#">
+            <img width="1180" height="500" src="image/slide3.jpg" class="attachment-1180x500 wp-post-image" alt="&#039;DISNEYLAND FOREVER&#039;" />
+            <div class="caption">
+              <h3>阿里副总裁刘春宁被抓  传因前东家腾讯举报</h3>
+              <p></p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  <div class="headlines slideshow-container">
+    <h3>公司动态 <small><a href="#">更多</a></small></h3>
+    <div class="flexslider flexslider-news">
+      <ul class="slides">
+         <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180-1.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业：通信工程、微电子与光电子、通讯与控制</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>微电子与光电子是物理学、电子学、材料科学、计算机科学、集成电路设计制造学等多个学科和超净、超纯、超精细加工技术基础上发展起来的一门新兴研究领域。</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180-1.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>就业前景：目前我国很缺少在此领域的科研人才，学成毕业后能在电子科学与技术领域从事各种电子</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>就业前景：目前我国很缺少在此领域的科研人才，学成毕业后能在电子科学与技术领域从事各种电子</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180-1.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>就业前景：目前我国很缺少在此领域的科研人才，学成毕业后能在电子科学与技术领域从事各种电子</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业：通信工程、微电子与光电子、通讯与控制</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="headlines slideshow-container">
+    <h3>基层动态 <small><a href="#">更多</a></small></h3>
+    <div class="flexslider flexslider-news">
+      <ul class="slides">
+         <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180-1.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180-1.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180-1.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="headlines slideshow-container">
+    <h3>云天化要闻 <small><a href="#">更多</a></small></h3>
+    <div class="flexslider flexslider-news">
+      <ul class="slides">
+         <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180-1.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180-1.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180-1.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+          <li class="slide">
+            <div class="card post-21606 multimedia_kit type-multimedia_kit status-publish has-post-thumbnail hentry">
+              <a href="#">
+                <div class="thumb">
+                  <img width="240" height="180" src="image/240x180.jpg" class="attachment-thumb-240-180 wp-post-image" alt="Sulley in Paint the Night" />
+                </div>
+                <div class="details">
+                  <h3>首先来看看手机硬件开发的相关的专业</h3>
+                </div>
+              </a>
+            </div>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-10">
+      <div class="featured-videos slideshow-container">
+          <h3>视频新闻 <small><a href="#">更多</a></small></h3>
+          <div class="flexslider flexslider-home-featured">
+            <ul class="slides">
+              <li class="slide">
+                <div class="card post-22240 video type-video status-publish has-post-thumbnail hentry category-diamond-celebration category-dlr">
+                  <a href="#">
+                    <div class="thumb">
+                      <img width="140" height="105" src="image/140x105-1.jpg" class="attachment-thumb-140-105 wp-post-image" alt="B Roll: Paint the Night" />   </div>
+                      <div class="details">
+                        <h3>首先来看看手机硬件开发的相关的专业k</h3>
+                      </div>
+                  </a>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="card post-22240 video type-video status-publish has-post-thumbnail hentry category-diamond-celebration category-dlr">
+                  <a href="#">
+                    <div class="thumb">
+                      <img width="140" height="105" src="image/140x105.jpg" class="attachment-thumb-140-105 wp-post-image" alt="B Roll: Paint the Night" />   </div>
+                      <div class="details">
+                        <h3>首先来看看手机硬件开发的相关的专业</h3>
+                      </div>
+                  </a>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="card post-22240 video type-video status-publish has-post-thumbnail hentry category-diamond-celebration category-dlr">
+                  <a href="#">
+                    <div class="thumb">
+                      <img width="140" height="105" src="image/140x105-1.jpg" class="attachment-thumb-140-105 wp-post-image" alt="B Roll: Paint the Night" />   </div>
+                      <div class="details">
+                        <h3>首先来看看手机硬件开发的相关的专业</h3>
+                      </div>
+                  </a>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="card post-22240 video type-video status-publish has-post-thumbnail hentry category-diamond-celebration category-dlr">
+                  <a href="#">
+                    <div class="thumb">
+                      <img width="140" height="105" src="image/140x105.jpg" class="attachment-thumb-140-105 wp-post-image" alt="B Roll: Paint the Night" />   </div>
+                      <div class="details">
+                        <h3>首先来看看手机硬件开发的相关的专业</h3>
+                      </div>
+                  </a>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="card post-22240 video type-video status-publish has-post-thumbnail hentry category-diamond-celebration category-dlr">
+                  <a href="#">
+                    <div class="thumb">
+                      <img width="140" height="105" src="image/140x105-1.jpg" class="attachment-thumb-140-105 wp-post-image" alt="B Roll: Paint the Night" />   </div>
+                      <div class="details">
+                        <h3>首先来看看手机硬件开发的相关的专业</h3>
+                      </div>
+                  </a>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="card post-22240 video type-video status-publish has-post-thumbnail hentry category-diamond-celebration category-dlr">
+                  <a href="#">
+                    <div class="thumb">
+                      <img width="140" height="105" src="image/140x105.jpg" class="attachment-thumb-140-105 wp-post-image" alt="B Roll: Paint the Night" />   </div>
+                      <div class="details">
+                        <h3>首先来看看手机硬件开发的相关的专业</h3>
+                      </div>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="featured-photos slideshow-container">
+          <h3>图片新闻 <small><a href="#">更多</a></small></h3>
+          <div class="flexslider flexslider-home-featured">
+            <ul class="slides">
+              <li class="slide">
+                <div class="card post-22201 attachment type-attachment status-inherit hentry category-disney-california-adventure category-disneyland-park category-dlr">
+                  <a href="#">
+                    <div class="thumb">
+                      <img width="140" height="105" src="image/140x105-1.jpg" class="attachment-thumb-140-105" alt="GET READY TO BE DAZZLED" />
+                    </div>
+                    <div class="details">
+                    <h3>Get Ready To Be Dazzled</h3>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="card post-22201 attachment type-attachment status-inherit hentry category-disney-california-adventure category-disneyland-park category-dlr">
+                  <a href="#">
+                    <div class="thumb">
+                      <img width="140" height="105" src="image/140x105.jpg" class="attachment-thumb-140-105" alt="GET READY TO BE DAZZLED" />
+                    </div>
+                    <div class="details">
+                    <h3>Get Ready To Be Dazzled</h3>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="card post-22201 attachment type-attachment status-inherit hentry category-disney-california-adventure category-disneyland-park category-dlr">
+                  <a href="#">
+                    <div class="thumb">
+                      <img width="140" height="105" src="image/140x105-1.jpg" class="attachment-thumb-140-105" alt="GET READY TO BE DAZZLED" />
+                    </div>
+                    <div class="details">
+                    <h3>Get Ready To Be Dazzled</h3>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="card post-22201 attachment type-attachment status-inherit hentry category-disney-california-adventure category-disneyland-park category-dlr">
+                  <a href="#">
+                    <div class="thumb">
+                      <img width="140" height="105" src="image/140x105.jpg" class="attachment-thumb-140-105" alt="GET READY TO BE DAZZLED" />
+                    </div>
+                    <div class="details">
+                    <h3>Get Ready To Be Dazzled</h3>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="card post-22201 attachment type-attachment status-inherit hentry category-disney-california-adventure category-disneyland-park category-dlr">
+                  <a href="#">
+                    <div class="thumb">
+                      <img width="140" height="105" src="image/140x105-1.jpg" class="attachment-thumb-140-105" alt="GET READY TO BE DAZZLED" />
+                    </div>
+                    <div class="details">
+                    <h3>Get Ready To Be Dazzled</h3>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="card post-22201 attachment type-attachment status-inherit hentry category-disney-california-adventure category-disneyland-park category-dlr">
+                  <a href="#">
+                    <div class="thumb">
+                      <img width="140" height="105" src="image/140x105.jpg" class="attachment-thumb-140-105" alt="GET READY TO BE DAZZLED" />
+                    </div>
+                    <div class="details">
+                    <h3>Get Ready To Be Dazzled</h3>
+                    </div>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div class="col-md-5">
+      <aside class="sidebar" role="complementary" id="secondary">
+        <div id="linkcat-1008" class="show-arrows widget widget_links_list">
+          <h2 class="widget-title">相关链接</h2>
+          <ul class='xoxo blogroll'>
+            <li><a href="#" target="_blank"><span>云天化集团</span></a></li>
+            <li><a href="#" target="_blank"><span>OA系统</span></a></li>
+            <li><a href="#" target="_blank"><span>云天化集团</span></a></li>
+            <li><a href="#" target="_blank"><span>OA系统</span></a></li>
+            <li><a href="#" target="_blank"><span>云天化集团</span></a></li>
+            <li><a href="#" target="_blank"><span>OA系统</span></a></li>
+          </ul>
+        </div>
+        <div id="linkcat-1010" class="widget widget_links_list"><h2 class="widget-title">常见问题</h2>
+          <ul class='xoxo blogroll'>
+            <li><a href="#" target="_blank"><span>投稿事宜</span></a></li>
+            <li><a href="#" target="_blank"><span>发布审批流程</span></a></li>
+            <li><a href="#" target="_blank"><span>投稿事宜</span></a></li>
+            <li><a href="#" target="_blank"><span>发布审批流程</span></a></li>
+            <li><a href="#" target="_blank"><span>投稿事宜</span></a></li>
+            <li><a href="#" target="_blank"><span>发布审批流程</span></a></li>
+          </ul>
+        </div>
+      </aside><!-- #secondary -->
+    </div>
+  </div>
+  </section>
+
+<footer role="contentinfo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-15 text-right">
+        <h2 class="parks-logo">金新化工</h2>
+      </div>
+      <div class="col-md-2 col-sm-3 col-xs-7 col-md-offset-2 col-sm-offset-1"><h3>集团结构</h3>
+        <ul class="sub-menu">
+          <li id="menu-item-21050" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21050"><a href="#">基层子公司</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-3 col-xs-7"><h3>其他资讯</h3>
+        <ul class="sub-menu">
+          <li id="menu-item-21053" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-21053"><a target="_blank" href="#">云天化要闻</a></li>
+          <li id="menu-item-21054" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21054"><a target="_blank" href="#">公司资讯</a></li>
+          <li id="menu-item-21357" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21357"><a href="#">基层资讯</a></li>
+          <li id="menu-item-21055" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21055"><a target="_blank" href="#">党群讯息</a></li>
+          <li id="menu-item-21056" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21056"><a target="_blank" href="#">员工动态</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-3 col-xs-7"><h3>安全之窗</h3>
+        <ul class="sub-menu">
+          <li id="menu-item-21058" class="newsroomicons-rss menu-item menu-item-type-custom menu-item-object-custom menu-item-21058"><a href="#">1234</a></li>
+          <li id="menu-item-21059" class="newsroomicons-rss menu-item menu-item-type-custom menu-item-object-custom menu-item-21059"><a href="#">4567</a></li>
+          <li id="menu-item-21060" class="newsroomicons-rss menu-item menu-item-type-custom menu-item-object-custom menu-item-21060"><a href="#">9873</a></li>
+        </ul>
+      </div>
+      <div class="col-md-2 col-sm-3 col-xs-7"><h3>联系方式</h3>
+        <ul class="sub-menu">
+          <li id="menu-item-21063" class="newsroomicons-twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-21063"><a target="_blank" href="#d">@云天化</a></li>
+          <li id="menu-item-21064" class="newsroomicons-twitter menu-item menu-item-type-custom menu-item-object-custom menu-item-21064"><a target="_blank" href="#">@金新化工</a></li>
+          <li id="menu-item-21065" class="newsroomicons-facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-21065"><a target="_blank" href="#">@党组织</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center legal">
+      <ul>
+        <li id="menu-item-21067" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21067"><a href="#">Terms of Use</a></li>
+        <li id="menu-item-21069" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21069"><a href="#">Privacy Policy/Your California Privacy Rights</a></li>
+        <li id="menu-item-21068" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21068"><a href="#">Supplemental Terms of Use</a></li>
+        <li id="menu-item-21070" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21070"><a target="_blank" href="#">Legal Notices</a></li>
+        <li id="menu-item-21071" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-21071"><a target="_blank" href="#">Site Map</a></li>
+      </ul>     
+      <p>&copy; 金新化工. 版权所有</p>
+    </div>
+  </div>
+</footer>
+
+<script type='text/javascript' src="js/modernizr-2.8.1-min.js"></script>
+<script type='text/javascript' src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-migrate.min.js"></script>
+<script type='text/javascript' src="js/libs.min.js"></script>
+<script type='text/javascript' src="js/main.min.js"></script>
+<script type='text/javascript' src="js/download-manager.js"></script>
+
+</body>
+</html>
